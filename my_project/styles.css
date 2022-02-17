@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  //background: url(bg.png);
+  min-height: 100vh;
+  background-position: center;
+  padding: 100px 0 100px;
+}
+
+.tab {
+  background-color: #F1F3F4;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.form {
+  border-radius: 20px;
+  width: 30%;
+}
+
+h1, h3 {
+  font-family: sans-serif;
+  color: #009DAE;
+}
+
+#email_error, #password_error, #name_error , #num_error , #date_error , #assign_check {
+  color: red;
+}
